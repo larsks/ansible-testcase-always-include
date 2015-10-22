@@ -1,0 +1,10 @@
+- hosts: localhost
+  tasks:
+    - block:
+
+        - include: failing_tasklist.yml
+
+      always:
+
+        - include: cleanup_tasklist.yml
+

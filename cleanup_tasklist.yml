@@ -1,0 +1,4 @@
+- name: clean up
+  debug:
+    msg: 'cleaning things up'
+

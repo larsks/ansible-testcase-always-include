@@ -1,0 +1,3 @@
+- name: fail on purpose
+  fail:
+    msg: 'breaking things'
